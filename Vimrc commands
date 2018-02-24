@@ -1,0 +1,20 @@
+"set relativenumber"
+set number
+set mouse=a
+set tabstop=4
+set autoindent
+set smartindent
+set shiftwidth=4
+set clipboard=unnamedplus
+inoremap (	()<Left>
+inoremap [	[]<Left>
+inoremap {	{}<Left>
+inoremap {<CR>	{<CR><Tab><CR>}<Up><ESC>a
+
+inoremap <expr> )	strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")"
+inoremap <expr> }	strpart(getline('.'), col('.')-1, 1) == "}" ? "\<Right>" : "}"
+inoremap <expr> ]	strpart(getline('.'), col('.')-1, 1) == "]" ? "\<Right>" : "]"
+
+inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\'\'\<Left>"
+inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
+
