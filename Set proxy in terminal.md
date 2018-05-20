@@ -1,5 +1,5 @@
 ### TYPE THE FOLLOWING IN KONSOLE
- (replacing * [proxy] with your proxy and *[port] with your port number)
+ (replacing [proxy] with your proxy and [port] with your port number)
 - `$ export http_proxy="http://proxy:port"`
 
  to check
