@@ -1,13 +1,17 @@
 ### TYPE THE FOLLOWING IN KONSOLE
-(replacing [proxy] with your proxy and [port] with your port number)
+*(replacing [proxy] with your proxy and [port] with your port number)
 - `$ export http_proxy="http://proxy:port"`
 
-to check
+*to check
 - `$ sudo apt-get update`
 
-### if does not work
-### ADD this to /etc/apt/apt.conf 
-(create apt.conf if does not exist)
+
+## IF THIS DOES NOT WORK
+### ADD the following to  /etc/apt/apt.conf 
+- `$ cd /etc/apt`
+- `$ sudo vim apt.conf`
+
+(this will create the apt.conf file if it does not exist)
 > Acquire::http::proxy "http://poxy:port/";
 
-## ONLY for apt-get
+## ONLY works for apt-get
