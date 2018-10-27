@@ -1,3 +1,3 @@
-This file has solutions to some linux problems.
-AND
-Ways to cutomize your linux. gekhe.
+#LINUX SOLUTIONS
+
+This Repository has solutions to some of the common linux problems I faced.
