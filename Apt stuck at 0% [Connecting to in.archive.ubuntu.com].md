@@ -15,8 +15,8 @@ $ sudo vim /etc/gai.conf
 
 to
 
-```conf
-> *//precedence ::ffff:0:0/96  100*
-```
+*```conf
+> //precedence ::ffff:0:0/96  100
+```*
 
 #### 3. save and exit
