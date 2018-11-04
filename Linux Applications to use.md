@@ -12,8 +12,9 @@
   -okular pdf reader
   -libre office
   -vim text editor
+  -pycharm-community
 
 #other utilities
-  -plank ( light dock)
+  -plank (light dock)
   -git
   -tree
