@@ -7,7 +7,7 @@
     $ cd /etc/modprobe.d/
     $ vim rtl8723be.conf
     ```
-*{ VIM FILE OPENS }*
+    *{ VIM FILE OPENS }*
 
 3. ADD the following line to rtl8723be.conf
     ```conf
@@ -15,6 +15,8 @@
     ```
 
 4. save
-*{ VIM CLOSED }*
+
+    *{ VIM CLOSED }*
+
 5. reboot
 6. if it FAILS, change ant_sel=2 and reboot
