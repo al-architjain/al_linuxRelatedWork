@@ -1,6 +1,6 @@
 ## Steps:
-1. Open **rtl8723be.conf** file in **etc/modeprobe.d/**
-    if it is not then create it.
+1. Open **rtl8723be.conf** file in **etc/modeprobe.d/**.
+    (if it is not then create it.)
     ##### COMMANDS
     ```conf
     $ cd /etc/modprobe.d/
