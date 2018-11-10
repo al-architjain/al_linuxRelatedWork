@@ -1,20 +1,20 @@
-#basics
-  -cpp
-  -python
+# basics
+  - cpp
+  - python
 
-#internet
-  -firefox web browser
+# internet
+  - firefox web browser
 
-#For multimedia
-  -vlc
+# For multimedia
+  - vlc
 
-#for study
-  -okular pdf reader
-  -libre office
-  -vim text editor
-  -pycharm-community
+# for study
+  - okular pdf reader
+  - libre office
+  - vim text editor
+  - pycharm-community
 
-#other utilities
-  -plank (light dock)
-  -git
-  -tree
+# other utilities
+  - plank (light dock)
+  - git
+  - tree
