@@ -1,7 +1,6 @@
 ## Steps:
-1. goto rtl8723be.conf file in etc/modeprobe.d/
-2. if it is not create one in etc/modeporbe.d
-
+1. Open **rtl8723be.conf** file in **etc/modeprobe.d/**
+    if it is not then create it.
     ###### COMMANDS
     ```conf
     $ cd /etc/modprobe.d/
@@ -10,6 +9,7 @@
     *{ VIM FILE OPENS }*
 
 3. ADD the following line to rtl8723be.conf
+    ###### Type
     ```conf
       options rtl8723be ant_sel=1
     ```
