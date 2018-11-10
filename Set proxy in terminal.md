@@ -1,13 +1,14 @@
-### TYPE THE FOLLOWING IN KONSOLE
+## Steps:
+1. TYPE THE FOLLOWING IN KONSOLE
  (replacing [proxy] with your proxy and [port] with your port number)
-- `$ export http_proxy="http://proxy:port"`
+ `$ export http_proxy="http://proxy:port"`
 
  to check
-- `$ sudo apt-get update`
+ `$ sudo apt-get update`
 
 
 ## IF THIS DOES NOT WORK
-### ADD the following to  /etc/apt/apt.conf 
+2. ADD the following to  /etc/apt/apt.conf 
 - `$ cd /etc/apt`
 - `$ sudo vim apt.conf`
 
