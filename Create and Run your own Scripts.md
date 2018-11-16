@@ -7,9 +7,10 @@
 > vim .bashrc
 
 ### Vim file opens, add the following line in the end
-###########################################
+```
 	PATH=$PATH:~/.my_scripts
-###########################################
+```
+
 ### Now change the access permission
 
 > chmod-R 777 .my_scripts
