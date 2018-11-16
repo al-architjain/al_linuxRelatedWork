@@ -1,2 +1,2 @@
 - Pycharm
-  > pacman -S pycharm-community-edition
+  `pacman -S pycharm-community-edition`
