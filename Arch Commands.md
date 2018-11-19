@@ -1,3 +1,6 @@
+Some useful Manjaro(Arch) commands
+==================================
+
 - Pycharm (community) 
   `pacman -S pycharm-community-edition`
 - Vim
