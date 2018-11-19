@@ -7,6 +7,7 @@ Some useful Manjaro(Arch) commands
   `pacman -S vim`
 - Virtual Environment
   `pacmman -S python-virtualenv`
+  
     or
   `pacman -S python`    //this install python-3.3 venv
 - 
