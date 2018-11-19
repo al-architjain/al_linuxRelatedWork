@@ -10,4 +10,5 @@ Some useful Manjaro(Arch) commands
   
     or
   `pacman -S python`    //this install python-3.3 venv
-- 
+- Tree
+  `pacman -S tree`
