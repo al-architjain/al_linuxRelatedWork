@@ -1,8 +1,11 @@
-Some useful Manjaro(Arch) commands
-==================================
+Some useful Linux Applications 
+==============================
+(Installation commands for **Ubuntu** and **Arch** based distros.
 
 - Pycharm (community) 
   `pacman -S pycharm-community-edition`
+  `sudo apt install pycharm-community-edition`
+  
 - Vim
   `pacman -S vim`
 - Virtual Environment
