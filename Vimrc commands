@@ -1,6 +1,16 @@
-"set relativenumber"
+"this is a comment
+"Download Themes from: https://vimcolors.com/
+
+"this is for the monokai theme"
 syntax on
+set termguicolors
+set background=dark
+colorscheme material-monokai
+
+
+"others"
 filetype indent plugin on
+set relativenumber
 set number
 set mouse=a
 set tabstop=4
@@ -8,6 +18,9 @@ set autoindent
 set smartindent
 set shiftwidth=4
 set clipboard=unnamedplus
+
+
+"for the autocomplete"
 inoremap (	()<Left>
 inoremap [	[]<Left>
 inoremap {	{}<Left>
@@ -19,4 +32,3 @@ inoremap <expr> ]	strpart(getline('.'), col('.')-1, 1) == "]" ? "\<Right>" : "]"
 
 inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\'\'\<Left>"
 inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
-
