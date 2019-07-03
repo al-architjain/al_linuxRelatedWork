@@ -1,5 +1,7 @@
-"this is a comment
-"Download Themes from: https://vimcolors.com/
+" this is a comment
+" Download Themes from: https://vimcolors.com/
+" copy the *.vim file from colors into :  .vim/colors/
+" write the name of the theme after the colorscheme keyword below
 
 "this is for the monokai theme"
 syntax on
